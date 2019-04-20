@@ -1,0 +1,29 @@
+---
+driver:
+  name: vagrant
+  customize:
+    cpus: 2
+    memory: 4096
+
+provisioner:
+  name: chef_solo
+  always_update_cookbooks: true
+
+verifier:
+  name: inspec
+
+transport:
+  name: winrm
+  elevated: true
+
+platforms:
+  - name: windows10
+    driver:
+      box: tas50/windows_10
+      vm_hostname: test-pdq
+
+suites:
+  - name: default
+    run_list:
+      - recipe[pdqdeploy::default]
+    attributes:
