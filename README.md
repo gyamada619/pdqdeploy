@@ -10,6 +10,10 @@ This cookbook installs the PDQ Deploy console in a given mode and either configu
 
 - Windows
 
+### Dependencies
+
+- [Chocolatey cookbook](https://supermarket.chef.io/cookbooks/chocolatey)
+
 ## Usage
 
 Add `recipe[pdqdeploy::default]` to your run list.
