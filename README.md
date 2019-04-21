@@ -1,3 +1,5 @@
+![PDQ Deploy logo](https://documentation.pdq.com/PDQDeploy/17.2.0.0/deploylogo-210.png)
+
 # PDQ Deploy Cookbook
 
 This cookbook installs the PDQ Deploy console in a given mode and either configures a connection to a PDQ Deploy Central Server or sets a new Central Server up.
