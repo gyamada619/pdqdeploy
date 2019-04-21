@@ -32,3 +32,9 @@ Attribute                                            | Description              
 `['serverhostname']`        | FQDN of your Central Server, e.g. pdq.example.com                                                 | String  | nil
 `['mode']`            | Whether to deploy this console in Client or Server mode                                                     | String  | Client 
 `['port']`        | TCP port to talk to Central Server                                                                       | String  | 6336
+
+## License & Maintainer
+
+Maintainer: Garrett Yamada (me@garrettyamada.com)
+
+License: MIT
