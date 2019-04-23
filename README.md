@@ -33,6 +33,10 @@ Attribute                                            | Description              
 `['mode']`            | Whether to deploy this console in Client or Server mode                                                     | String  | Client 
 `['port']`        | TCP port to talk to Central Server                                                                       | String  | 6336
 
+## Testing
+
+Testing was performed on Windows 10 v1803, Windows 10 v1803, and Windows Server 2019.
+
 ## License & Maintainer
 
 Maintainer: Garrett Yamada (me@garrettyamada.com)
