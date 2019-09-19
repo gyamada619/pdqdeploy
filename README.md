@@ -37,6 +37,10 @@ Attribute                                            | Description              
 
 Testing was performed on Windows 10 v1803, Windows 10 v1803, and Windows Server 2019.
 
+## Known Issues
+
+This cookbook has sucessfully set up a client when used with the latest version of the PDQ console; however, its has not been verified to set up server mode.
+
 ## License & Maintainer
 
 Maintainer: Garrett Yamada (me@garrettyamada.com)
